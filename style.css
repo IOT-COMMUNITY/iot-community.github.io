@@ -1,124 +1,106 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Rubik', sans-serif;
+ @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Rubik', sans-serif;
 }
-
-:root {
-    --bg-color: #1f1f21;
-    --text-color: #fff;
-    --main-color: #ffae00;
-    --p-font: 1.1rem;
-	--grey: #adadad;
+ :root {
+     --bg-color: #1f1f21;
+     --text-color: #fff;
+     --main-color: #ffae00;
+     --p-font: 1.1rem;
+     --grey: #adadad;
 }
-
-body {
-    background: var(--bg-color);
-    color: var(--text-color);
-	display: flex;
-	height: 100dvh;
-	flex-direction: column;
-}
-
-header {
-	font-family: "Oswald", sans-serif;
-	margin: 3rem;
-}
-
-header ul {
-	list-style: none;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
-}
-
-main {
-	padding: 0 12%;
-}
-
-.tagline {
-	background-image: url("https://i0.wp.com/tridenstechnology.com/wp-content/uploads/2019/08/IoT-devices.jpg");
-	height: 40vh;
-	background-size: cover;
-	background-repeat: none;
-	background-position: center;
-	width: 100%;
-	display: flex;
-	align-items: flex-end;
-	justify-content: center;
-	font-size: 21px;
-	font-weight: bold;
-	margin: 20px 0;
-}
-
-.tagline q {
-	background: var(--grey);
-	padding: 1px;
-}
-a {
-	text-decoration: none;
-	color: var(--main-color);
-	font-family: "Oswald", sans-serif;
-}
-
-.project {
-	margin: 20px 0;
-}
-
-.project h2 {
-	text-align: center;
-}
-
-.latest_project:empty::after {
-	content: 'No featured project yet';
-}
-
-.meeting:empty::after {
-	content: 'No meeting sheduled as of now :)';
-}
-
-a:hover {
-	color: var(--text-color);
-	text-decoration: underline;
-}
-
-.home-text p{
-    font-size: var(--p-font);
-    color:#c3c3c3;
-    line-height: 30px;
-
-}
-
-footer.share{
-	margin-top: auto;
+ body {
+     background: var(--bg-color);
+     color: var(--text-color);
      display: flex;
-    align-items: center;
-    justify-content: center;
-	padding: 20px;
-	flex-direction: column;
+     height: 100dvh;
+     flex-direction: column;
 }
-
-hr {
-	height: 5px;
-	width: 80%;
-	border: none;
-	background-color: var(--grey);
+ header {
+     font-family: "Oswald", sans-serif;
+     margin: 3rem;
 }
-
-.social {
-	margin: 20px;
-	font-size: 27px;
+ header ul {
+     list-style: none;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
 }
-
-.social i {
-	padding: 12px;
+ main {
+     padding: 0 12%;
 }
-
-.active {
-	background-color: var(--main-color);
-	color: var(--text-color);
-	padding: 5px;
-	border-radius: 5px;
+ .tagline {
+     background-image: url("https://i0.wp.com/tridenstechnology.com/wp-content/uploads/2019/08/IoT-devices.jpg");
+     height: 40vh;
+     background-size: cover;
+     background-repeat: none;
+     background-position: center;
+     width: 100%;
+     display: flex;
+     align-items: flex-end;
+     justify-content: center;
+     font-size: 21px;
+     font-weight: bold;
+     margin: 20px 0;
 }
+ .tagline q {
+     background: var(--grey);
+     padding: 1px;
+}
+ a {
+     text-decoration: none;
+     color: var(--main-color);
+     font-family: "Oswald", sans-serif;
+}
+ .project {
+     margin: 20px 0;
+}
+ .project h2 {
+     text-align: center;
+}
+ .latest_project:empty::after {
+     content: 'No featured project yet';
+}
+ .meeting:empty::after {
+     content: 'No meeting sheduled as of now :)';
+}
+ a:hover {
+     color: var(--text-color);
+     text-decoration: underline;
+}
+ .home-text p{
+     font-size: var(--p-font);
+     color:#c3c3c3;
+     line-height: 30px;
+}
+ footer.share{
+     margin-top: auto;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 20px;
+     flex-direction: column;
+}
+ hr {
+     height: 5px;
+     width: 80%;
+     border: none;
+     background-color: var(--grey);
+}
+ .social {
+     margin: 20px;
+     font-size: 27px;
+}
+ .social i {
+     padding: 12px;
+}
+ .active {
+     background-color: var(--main-color);
+     color: var(--text-color);
+     padding: 5px;
+     border-radius: 5px;
+}
+ 
