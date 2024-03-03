@@ -40,7 +40,8 @@ main {
 
 .tagline {
 	background-image: url("https://i0.wp.com/tridenstechnology.com/wp-content/uploads/2019/08/IoT-devices.jpg");
-	height: 40dvh;
+	height: 40vh;
+	background-size: cover;
 	background-repeat: none;
 	background-position: center;
 	width: 100%;
@@ -60,6 +61,22 @@ a {
 	text-decoration: none;
 	color: var(--main-color);
 	font-family: "Oswald", sans-serif;
+}
+
+.project {
+	margin: 20px 0;
+}
+
+.project h2 {
+	text-align: center;
+}
+
+.latest_project:empty::after {
+	content: 'No featured project yet';
+}
+
+.meeting:empty::after {
+	content: 'No meeting sheduled as of now :)';
 }
 
 a:hover {
