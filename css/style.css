@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+:root {
+        --primary-color: #e4e4e4;
+        --secondary-color: #202124;
+        --header-font: "Anonymous Pro", monospace;
+        --normal-font: "Inria Sans", sans-serif;
+        --link-color: #007BFF;
+}
+
+@media (prefers-color-scheme: dark) {
+        :root {
+                --primary-color: #202124;
+                --secondary-color: #e4e4e4;
+                --link-color: #0056b3;
+        }
+}
+
+body {
+ background-color: var(--secondary-color);
+ color: var(--primary-color);
+ font-family: var(--normal-font);
+ display: flex;
+ height: 100vh;
+ flex-direction: column;
+}
+
+h1, h2, h3, h4, h5 {
+        font-family: var(--header-font);
+}
+
+/* Make links special */
+a {
+        color: var(--link-color);
+        text-decoration: none;
+}
+
+a:hover {
+        color: var(--link-color);
+        text-decoration: underline;
+}
+
+/** Only affect the li in the header nav and leave other stylings up for grabs */
+header nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        font-family: var(--header-font);
+        text-transform: uppercase;
+        font-size: 1.3rem;
+        font-weight: 700;
+        letter-spacing: .1rem;
+}
+
+header {
+        padding: 0 5%;
+}
+
+header nav ul li {
+        list-style: none;
+}
+
+main {
+        padding: 1% 5%;
+        display: grid;
+        place-items: center;
+        font-size: 21px;
+}
+
+footer hr {
+        height: 3px;
+        width: 90%;
+        border: none;
+        background-color: var(--primary-color);
+}
+
+footer {
+        padding: 3rem;
+        margin-top: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: var(--header-font);
+}
+
+.club_socials {
+        margin-top: 1rem;
+        display: flex;
+        justify-content: space-evenly;
+        gap: 3rem;
+}
+
+.active {
+        text-decoration: underline;
+        text-decoration-color: var(--primary-color);
+}
+
+.main_page_img_container {
+        display: flex;
+        justify-content: center;
+}
+
+/* Allow wrap at this position, value can change */
+@media (max-width: 800px) {
+        .main_page_img_container {
+        flex-wrap: wrap;
+        }
+}
+
+.main_page_img_container img:nth-child(odd) {
+        place-self: start;
+ transform: rotate(-3deg) scale(0.7);
+}
+
+.main_page_img_container img:nth-child(even) {
+        place-self: start end;
+ transform: rotate(3deg) scale(0.7);
+}
+
+.main_page_img_container img {
+      width: 60%;
+  border-radius: 12px;
+ --s: 50px; /* the size on the corner */
+ padding: 20px; /* the gap between the border and image */
+ border: 5px solid #B38184; /* the thickness and color */
+ -webkit-mask:
+    conic-gradient(at var(--s) var(--s),#0000 75%,#000 0)
+    0 0/calc(100% - var(--s)) calc(100% - var(--s)),
+    linear-gradient(#000 0 0) content-box;
+}
+
+#featured_project h2 {
+        text-align: center;
+        text-decoration: underline;
+}
