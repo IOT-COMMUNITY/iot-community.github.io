@@ -1,28 +1,28 @@
 {
-  "members": [
-    {
-      "name": "Samuel Oduor",
-      "id": "2d47dd30-b887-4a5e-82b7-9f959af2bfde",
-      "socials": {
-        "github": "https://github.com/khansamuel",
-        "linkedin": "https://www.linkedin.com/in/samuel-oduor-71267b254/",
-        "twitter": "",
-        "portifolio": "",
-        "blog": ""
-      },
-      "notes": ""
-    },
-    {
-      "name": "David Nanjila",
-      "id": "227e65d0-a1a1-4427-9ad6-bc17bdc2c7cb",
-      "socials": {
-        "github": "https://github.com/stoicdavi",
-        "linkedin": "https://www.linkedin.com/in/david-nanjila-523232277/",
-        "twitter": "https://twitter.com/abisaidavid1",
-        "portifolio": "",
-        "blog": ""
-      },
-      "notes": ""
-    }
-  ]
+	"members": [
+		{
+			"name": "Samuel Oduor",
+			"id": "2d47dd30-b887-4a5e-82b7-9f959af2bfde",
+			"socials": {
+				"github": "https://github.com/khansamuel",
+				"linkedin": "https://www.linkedin.com/in/samuel-oduor-71267b254/",
+				"twitter": "",
+				"portifolio": "",
+				"blog": ""
+			},
+			"notes": ""
+		},
+		{
+			"name": "David Nanjila",
+			"id": "227e65d0-a1a1-4427-9ad6-bc17bdc2c7cb",
+			"socials": {
+				"github": "https://github.com/stoicdavi",
+				"linkedin": "https://www.linkedin.com/in/david-nanjila-523232277/",
+				"twitter": "https://twitter.com/abisaidavid1",
+				"portifolio": "",
+				"blog": ""
+			},
+			"notes": ""
+		}
+	]
 }

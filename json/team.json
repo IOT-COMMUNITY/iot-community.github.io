@@ -1,16 +1,19 @@
 {
-        "teams": [
-        {
-                "name": "Team 1",
-                "id": "c2e13246-8982-4506-864b-ee0374c4d6cb",
-                "members": ["227e65d0-a1a1-4427-9ad6-bc17bdc2c7cb", "2d47dd30-b887-4a5e-82b7-9f959af2bfde"],
-                "notes": null
-        },
-        {
-                "name": "Team 2",
-                "id": "af594d8e-a115-456a-8fc0-9b3045077b2b",
-                "members": [],
-                "notes": null
-        }
-        ]
+	"teams": [
+		{
+			"name": "Team 1",
+			"id": "c2e13246-8982-4506-864b-ee0374c4d6cb",
+			"members": [
+				"227e65d0-a1a1-4427-9ad6-bc17bdc2c7cb",
+				"2d47dd30-b887-4a5e-82b7-9f959af2bfde"
+			],
+			"notes": null
+		},
+		{
+			"name": "Team 2",
+			"id": "af594d8e-a115-456a-8fc0-9b3045077b2b",
+			"members": [],
+			"notes": null
+		}
+	]
 }

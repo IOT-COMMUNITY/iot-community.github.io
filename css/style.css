@@ -132,3 +132,32 @@ footer {
         text-align: center;
         text-decoration: underline;
 }
+
+.members_socials li, #team-details li {
+	list-style: none;
+}
+
+.social_key {
+		text-transform: capitalize;
+}
+
+main#team-details {
+		place-items: unset;
+}
+
+main#team-details h2 {
+		text-align: center;
+}
+
+main#team-details ul li {
+		border-radius: 12px;
+		padding: 4px 12px;
+		margin: 5px;
+}
+
+main#team-details ul li:nth-child(even) {
+		background: #adadc9;
+}
+main#team-details ul li:nth-child(odd) {
+		background: #7f7d9c;
+}
