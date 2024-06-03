@@ -1,29 +1,29 @@
 {
-        "projects": [
-        {
-                "name": "Irrigation System",
-                "id": "7725fb6b-457c-4112-9855-e6c11edbe1ca",
-                "team": "c2e13246-8982-4506-864b-ee0374c4d6cb",
-                "images": [],
-                "upstream": null,
-                "notes": null,
-                "date": [
-                    {"start_year": 2024, "start_month": 1, "start_day": 21},
-                    {"end_year": 2024, "end_month": 1, "end_day": 27}
-                ]
-        },
-         {
-                 "name": "Automatic Switch",
-                 "id": "32b6d92d-2e2c-42f6-8142-a44f838b6434",
-                 "team": "af594d8e-a115-456a-8fc0-9b3045077b2b",
-                 "images": [],
-                 "upstream": null,
-                 "notes": null,
-                 "date": [
-                    {"start_year": 2024, "start_month": 2, "start_day": 1},
-                    {"end_year": 2024, "end_month": 2, "end_day": 8}
-                ]
-                    
-          }
-        ]
+	"projects": [
+		{
+			"name": "Irrigation System",
+			"description": "A simple irrigation system",
+			"id": "7725fb6b-457c-4112-9855-e6c11edbe1ca",
+			"team": "c2e13246-8982-4506-864b-ee0374c4d6cb",
+			"images": [],
+			"upstream": null,
+			"notes": null,
+			"date": [
+				{ "start_year": 2024, "start_month": 1, "start_day": 21 },
+				{ "end_year": 2024, "end_month": 1, "end_day": 27 }
+			]
+		},
+		{
+			"name": "Automatic Switch",
+			"id": "32b6d92d-2e2c-42f6-8142-a44f838b6434",
+			"team": "af594d8e-a115-456a-8fc0-9b3045077b2b",
+			"images": [],
+			"upstream": null,
+			"notes": null,
+			"date": [
+				{ "start_year": 2024, "start_month": 2, "start_day": 1 },
+				{ "end_year": 2024, "end_month": 2, "end_day": 8 }
+			]
+		}
+	]
 }
